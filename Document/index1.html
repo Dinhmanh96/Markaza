@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <style type="text/css">
+<style>
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,ul,li,p{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.row{
+    margin: 0;
+    padding: 0;
+}
+
+.header-top{
+    background: #00b3b1;
+    
+}
+.logo{
+    padding-right: 30px;
+
+}
+.logo img{
+    width: 100;
+    height: auto;
+
+}
+.search{
+    padding: 30px 30px;
+    
+}
+.search input{
+    border-radius: 10px;
+    width: 100%;
+    padding-left: 30px;
+
+}
+.search input[placeholder="Tim kiem san pham..."]{
+    padding: 3px 20px;
+}
+.header-top-right{
+    
+    padding-top: 18px;
+    padding-left: 100px;
+    background: none;
+    border: none;
+}
+.header-top-right img{
+    height: 40px;
+    width: auto;
+    
+}
+.header-top-right ul li{
+    list-style: none;
+    float: left;
+    padding: 10px 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+</head>
+<body>
+    <div class="container wrapper">
+        <!-- Header -->
+        <header >
+        <div class="row header-top">
+                <div class="col-xs-2 col-sm-2 col-md-2 logo">
+                    <h2><a href="#"></a><img src="image/logo.png"> </h2>
+                </div>
+
+                <div class="col-xs-5 col-sm-3 col-md-6 search" >
+                    <input type="text" name="search" placeholder="Tim kiem san pham...">
+                </div>
+
+                <div class="col-xs-5 col-sm-7 col-md-4 navbar navbar-default header-top-right">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse collapse-li" id="collapse">
+                        <ul>
+                            <li><a href="#"><img src="image/sc.png"></a></li>
+                            <li><a href="#"><img src="image/cart.png"></a></li>
+                            <li><a href="#"><img src="image/login.png"></a></li>
+                        </ul>
+                    </div>
+                    <div style="clear: both;"></div>
+                </div>
+        </div>
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </li>
+</ul>
+
+<h3>Dropdown Menu inside a Navigation Bar</h3>
+<p>Hover over the "Dropdown" link to see the dropdown menu.</p>
+
+</body>
+</html>
